@@ -1,0 +1,103 @@
+/*===================== 
+	Primary bg color 
+=====================*/
+:root {
+  --primary: #d48d54;
+}
+/* Hex */
+.menuleft:after,
+.bg-primary,
+a.bg-primary:hover,
+.overlay-primary-light:after,
+.overlay-primary-middle:after,
+.overlay-primary-dark:after,
+.site-button,
+.owl-theme.dots-style-1 .owl-dots .owl-dot.active span,
+.owl-theme.dots-style-1 .owl-dots .owl-dot:hover span {
+  background-color: #d48d54;
+}
+/*Hex color :hover */
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.active > .site-button,
+.bg-primary-dark,
+.sidenav .closebtn:hover,
+.style-2 .dez-social-icon.dez-border li a:hover {
+  background-color: #ad6d39;
+}
+/*===================== 
+	Premery text color 
+=====================*/
+a,
+.text-primary,
+.site-button.outline,
+.dez-countdown .date .time,
+.lg-outer .lg-toogle-thumb,
+.lg-outer .lg-toogle-thumb:hover,
+.dlab-bnr-inr .breadcrumb-row ul li:after,
+.dlab-bnr-inr .breadcrumb-row ul li:last-child,
+.testimonial-1 .testimonial-position,
+.resume-tag .resume-tag-btn strong,
+.knowledge-tag li:after,
+.site-filters .active > [class*="site-button"] {
+  color: #d48d54;
+}
+
+/*===================== 
+	Border Color color 
+=====================*/
+.timeline .box-left,
+.timeline .box-left:after,
+.site-button.outline,
+.dez-countdown .date .time {
+  border-color: #d48d54;
+}
+
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item:hover {
+  border-color: #d48d54;
+}
+/* Gradiyant Bottom To Top */
+.dlab-gallery-box:after,
+.service-box:not(.contact-box):after,
+.service-box:before,
+.text-gradient,
+.resume-user .site-button,
+.extra-nav ul li a.menu-btn {
+  background-image: linear-gradient(
+    to top,
+    #ad6d39 0,
+    #d48d54 100%,
+    #ad6d39 100%
+  );
+  background-size: 200%;
+}
+.contact-form .form-group:after,
+.button-gradient,
+.progress-bar {
+  background-image: linear-gradient(
+    to right,
+    #ad6d39 0,
+    #d48d54 100%,
+    #ad6d39 500%
+  );
+  background-size: 200%;
+}
+svg.radial-progress:nth-of-type(6n + 1) circle {
+  stroke: #d48d54;
+}
+.resume-tag .resume-tag-btn,
+.knowledge-tag li {
+  background-color: rgba(212, 141, 84, 0.1);
+  border-color: rgba(212, 141, 84, 0.2);
+}
+/* text dark */
+
+.text-dark .social-sidebar ul li a,
+.text-dark .copyright-fixed,
+.text-dark .banner-inner .title,
+.text-dark .banner-inner .sub-title,
+.text-dark .extra-nav ul li a:not(.menu-btn) {
+  color: #000000;
+}
